@@ -6,28 +6,61 @@ h2{
     
 }
 
-p{
+p {
+ max-height: 400px;
+ background-color: white; /*testing*/
     
 }
 
-.content{
+body{
+    /*background-color:;*/
+;
+}
+
+.content {
     padding: 20px;
     margin: 50px;
+    height: 450px;
+    background-color: #99ff99;
+    
     
 }
 
-#cover{
-   float:right; 
-   margin:5px;
+.content2 {
+    padding: 20px;
+    margin: 50px;
+    height: 450px;
+    background-color:#66ccff ;
 }
 
 .characters{
     padding: 20px;
     margin: 50px;
+    height:340px;
+    background-color: #99ff99;
     
 }
 
-#cassia{
-    padding: 5px;
-    float: right;
+.form{
+    padding: 20px;
+    margin: 50px;
+    background-color: #99ff99;
 }
+
+#cover{
+   float:right; 
+   margin-left:25px;
+   
+}
+
+#cassia{
+    padding-right: 25px;
+    float: left;
+}
+
+#lady{
+    float:right; 
+    margin-left:25px;
+}
+
+
