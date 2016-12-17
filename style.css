@@ -7,20 +7,20 @@ h1 {
 
 h2 {
     text-align: left;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Passion One', cursive;
     font-size: 25px;
     color: #003333;
 }
 
 p {
     text-align: left;
-    font-family: 'Passion One', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
     font-size: 20px;
     color: #000033;
 }
 
 ul {
-  font-family: 'Passion One', cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
   font-size: 20px;
   color: #000033;
 }
@@ -101,9 +101,12 @@ span {
     padding-right: 10px;
 }
 .form{
-    font-family: 'Passion One', cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
     font-size: 15px;
 }
 input{
-    font-family: 'Passion One', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+    
 }
+
+
