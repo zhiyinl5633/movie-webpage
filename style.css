@@ -1,29 +1,42 @@
-h1{
+h1 {
     text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+    color: #000033;
 }
 
-h2{
-    
+h2 {
+    text-align: left;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+    color: #003333;
 }
 
 p {
-
+    text-align: left;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+    color: #000033;
 }
 
 ul {
-    
+  font-family: 'Passion One', cursive;
+  font-size: 20px;
+  color: #000033;
 }
 
-body{
+body {
     background-image: url(matched.png);
-
 }
-#sequel{
+
+#sequel {
     background-image: url(crossed.png);
 }
 
 span {
-    color:gray;
+    color: #293d3d;
+    background-color:  #ffff66;
+    
 }
 
 .content {
@@ -33,7 +46,6 @@ span {
     height: 450px;
     background-color: #99ff99;
     border-radius: 50px;
-    
 }
 
 .content2 {
@@ -41,55 +53,57 @@ span {
     padding-left: 50px;
     margin: 50px;
     height: 450px;
-    background-color:#66ccff ;
+    background-color: #66ccff;
     border-radius: 50px;
 }
 
-.characters{
+.characters {
     padding: 20px;
     margin: 50px;
     margin-bottom: 75px;
-    height:340px;
+    height: 340px;
     background-color: #99ff99;
     border-radius: 50px;
-    
 }
 
-.form{
+.form {
     padding: 10px;
     margin: 50px;
     background-color: #99ff99;
     position: fixed;
-    bottom:-50px;
+    bottom: -50px;
     right: 10px;
     width: 450px;
-    height:20px;
+    height: 20px;
     border: 5px solid #00ff99;
 }
 
-.button{
-    margin-left:5px;
-   border-radius: 25px;
-   
+.button {
+    margin-left: 5px;
+    border-radius: 20px;
 }
 
-#cover{
-   float:right; 
-   margin-left:25px;
-   padding-right: 10px;
-   
+#cover {
+    float: right;
+    margin-left: 25px;
+    padding-right: 10px;
 }
 
-#cassia{
+#cassia {
     padding-right: 50px;
     padding-left: 10px;
     float: left;
 }
 
-#lady{
-    float:right; 
-    margin-left:25px;
+#lady {
+    float: right;
+    margin-left: 25px;
     padding-right: 10px;
 }
-
-
+.form{
+    font-family: 'Passion One', cursive;
+    font-size: 15px;
+}
+input{
+    font-family: 'Passion One', cursive;
+}
