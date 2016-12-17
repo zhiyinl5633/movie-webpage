@@ -15,8 +15,11 @@ ul {
 }
 
 body{
+    background-image: url(matched.png);
 
-
+}
+#sequel{
+    background-image: url(crossed.png);
 }
 
 span {
