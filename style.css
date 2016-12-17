@@ -7,14 +7,20 @@ h2{
 }
 
 p {
- max-height: 400px;
- background-color: white; /*testing*/
+
+}
+
+ul {
     
 }
 
 body{
-    /*background-color:;*/
-;
+
+
+}
+
+span {
+    color:blue;
 }
 
 .content {
@@ -42,9 +48,18 @@ body{
 }
 
 .form{
-    padding: 20px;
+    padding: 10px;
     margin: 50px;
     background-color: #99ff99;
+    position: fixed;
+    bottom:-50px;
+    right: 10px;
+    width: 40px;
+    height:20px;
+}
+
+.button{
+    margin-left:5px;
 }
 
 #cover{
