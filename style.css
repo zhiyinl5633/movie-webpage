@@ -20,30 +20,35 @@ body{
 }
 
 span {
-    color:blue;
+    color:gray;
 }
 
 .content {
     padding: 20px;
+    padding-left: 50px;
     margin: 50px;
     height: 450px;
     background-color: #99ff99;
-    
+    border-radius: 50px;
     
 }
 
 .content2 {
     padding: 20px;
+    padding-left: 50px;
     margin: 50px;
     height: 450px;
     background-color:#66ccff ;
+    border-radius: 50px;
 }
 
 .characters{
     padding: 20px;
     margin: 50px;
+    margin-bottom: 75px;
     height:340px;
     background-color: #99ff99;
+    border-radius: 50px;
     
 }
 
@@ -54,28 +59,34 @@ span {
     position: fixed;
     bottom:-50px;
     right: 10px;
-    width: 40px;
+    width: 450px;
     height:20px;
+    border: 5px solid #00ff99;
 }
 
 .button{
     margin-left:5px;
+   border-radius: 25px;
+   
 }
 
 #cover{
    float:right; 
    margin-left:25px;
+   padding-right: 10px;
    
 }
 
 #cassia{
-    padding-right: 25px;
+    padding-right: 50px;
+    padding-left: 10px;
     float: left;
 }
 
 #lady{
     float:right; 
     margin-left:25px;
+    padding-right: 10px;
 }
 
 
