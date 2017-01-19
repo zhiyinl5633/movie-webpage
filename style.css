@@ -40,6 +40,13 @@ span {
     font-weight: bold;
 }
 
+.wrapper {
+     position: relative;
+    overflow: hidden;
+    width: 1700px;
+    height: 1740px; 
+}
+
 .content {
     padding: 20px;
     padding-left: 50px;
@@ -47,6 +54,18 @@ span {
     height: 510px;
     background-color: #99ff99;
     border-radius: 50px;
+    position: relative;
+    left: 20px;
+    left: -1700px;
+    width: 1500px;
+    height: 500px;
+    animation: slide-right 1s forwards;
+    animation-delay: 1s;
+    /*background:lightblue;*/
+}
+
+@keyframes slide-right {
+    100% { left: 0px; }
 }
 
 .content2 {
@@ -59,13 +78,27 @@ span {
 }
 
 .characters {
+    z-index:-1;
     padding: 20px;
     margin: 50px;
     margin-bottom: 75px;
-    height: 400px;
+    /*height: 400px;*/
     background-color: #99ff99;
     border-radius: 50px;
+    position: relative;
+    right: 20px;
+    right: -1700px;
+    width: 1530px;
+    height: 400px;
+    animation: slide-left 1s forwards;
+    animation-delay: 2s;
+    /*background:white;*/
 }
+
+@keyframes slide-left {
+    100% { right: 0px; }
+}
+
 
 .video {
     padding: 20px;
@@ -74,7 +107,20 @@ span {
     height: 400px;
     background-color: #99ff99;
     border-radius: 50px;
+    position: relative;
+    left: 20px;
+    left: -1700px;
+    width: 1110px;
+    height: 500px;
+    animation: slide-right 1s forwards;
+    animation-delay: 3s;
+
 }
+
+@keyframes slide-right {
+    100% { left: 0px; }
+}
+
 
 .form {
     padding: 10px;
@@ -88,6 +134,8 @@ span {
     border: 5px solid #00ff99;
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 19px;
+    box-shadow: 5px 5px 5px grey;
+
 }
 
 .button {
@@ -99,18 +147,22 @@ span {
     float: right;
     margin-left: 25px;
     padding-right: 10px;
+
+    
 }
 
 #cassia {
     padding-right: 50px;
     padding-left: 10px;
     float: left;
+
 }
 
 #lady {
     float: right;
     margin-left: 25px;
     padding-right: 10px;
+    
 }
 
 input {
