@@ -3,6 +3,17 @@ h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 50px;
     color: #000033;
+    transition:transform 2s; /**/
+    transition-delay: 1s;
+    transform:rotate(360deg);
+}
+
+ a{
+     color:green;
+ }
+ 
+a:hover{
+      text-shadow: 2px 2px 4px lightblue; /**/
 }
 
 h2 {
@@ -41,7 +52,7 @@ span {
 }
 
 .wrapper {
-     position: relative;
+    position: relative;
     overflow: hidden;
     width: 1700px;
     height: 1740px; 
@@ -55,13 +66,10 @@ span {
     background-color: #99ff99;
     border-radius: 50px;
     position: relative;
-    left: 20px;
     left: -1700px;
     width: 1500px;
     height: 500px;
-    animation: slide-right 1s forwards;
-    animation-delay: 1s;
-    /*background:lightblue;*/
+    animation: slide-right 1s forwards 1s; /**/
 }
 
 @keyframes slide-right {
@@ -78,21 +86,18 @@ span {
 }
 
 .characters {
-    z-index:-1;
     padding: 20px;
     margin: 50px;
     margin-bottom: 75px;
-    /*height: 400px;*/
     background-color: #99ff99;
+    background: radial-gradient(#99ff99,#00ff99);
     border-radius: 50px;
     position: relative;
-    right: 20px;
     right: -1700px;
     width: 1530px;
     height: 400px;
-    animation: slide-left 1s forwards;
-    animation-delay: 2s;
-    /*background:white;*/
+    animation: slide-left 1s forwards 2s;/**/
+    
 }
 
 @keyframes slide-left {
@@ -106,15 +111,13 @@ span {
     margin: 50px;
     height: 400px;
     background-color: #99ff99;
+    background:linear-gradient(-90deg, #99ff99,#00cccc,#66ff99);
     border-radius: 50px;
     position: relative;
-    left: 20px;
     left: -1700px;
     width: 1110px;
     height: 500px;
-    animation: slide-right 1s forwards;
-    animation-delay: 3s;
-
+    animation: slide-right 1s forwards 3s; /**/
 }
 
 @keyframes slide-right {
@@ -134,8 +137,8 @@ span {
     border: 5px solid #00ff99;
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 19px;
-    box-shadow: 5px 5px 5px grey;
-
+    box-shadow: 5px 5px 5px grey; /**/
+    
 }
 
 .button {
@@ -147,22 +150,28 @@ span {
     float: right;
     margin-left: 25px;
     padding-right: 10px;
+    transition: transform 2s; /**/
+}
 
-    
+#cover:hover { /**/
+    transform: rotateY(360deg);
 }
 
 #cassia {
     padding-right: 50px;
     padding-left: 10px;
     float: left;
+    transition: transform 2s;
+}
 
+#cassia:hover { /**/
+    transform: rotateX(360deg);
 }
 
 #lady {
     float: right;
     margin-left: 25px;
     padding-right: 10px;
-    
 }
 
 input {
