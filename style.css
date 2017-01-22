@@ -3,17 +3,16 @@ h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 50px;
     color: #000033;
-    transition:transform 2s; /**/
-    transition-delay: 1s;
-    transform:rotate(360deg);
+    transition:transform 2s ease 1s; /* property= transform, duration= 2s, transition-timing function at default, delaty= 1s*/
+    transform:rotate(360deg);/*2D rotate text 360deg*/
 }
 
  a{
      color:green;
  }
  
-a:hover{
-      text-shadow: 2px 2px 4px lightblue; /**/
+a:hover{/*show text shadow when mouse hovers link*/
+      text-shadow: 2px 2px 4px lightblue; /*horizontal and vertical shadow=2px, blur radius=4x, color=lightblue*/
 }
 
 h2 {
@@ -62,17 +61,17 @@ span {
     padding: 20px;
     padding-left: 50px;
     margin: 50px;
-    height: 510px;
     background-color: #99ff99;
-    border-radius: 50px;
+    border-radius: 50px; /*create rounded borders*/
     position: relative;
-    left: -1700px;
+    left:-1700px;/*starting point*/
     width: 1500px;
     height: 500px;
-    animation: slide-right 1s forwards 1s; /**/
+    animation: slide-right 1s ease 1s; /*animation name= slide-right, duration= 1s, timing function at default, delay= 1s */
+    animation-fill-mode: forwards;/*make animation stay after shifting right*/
 }
 
-@keyframes slide-right {
+@keyframes slide-right {/*ending point*/
     100% { left: 0px; }
 }
 
@@ -82,7 +81,7 @@ span {
     margin: 50px;
     height: 470px;
     background-color: #66ccff;
-    border-radius: 50px;
+    border-radius: 50px; /*create rounded borders*/
 }
 
 .characters {
@@ -90,17 +89,18 @@ span {
     margin: 50px;
     margin-bottom: 75px;
     background-color: #99ff99;
-    background: radial-gradient(#99ff99,#00ff99);
-    border-radius: 50px;
+    background: radial-gradient(#99ff99,#00ff99,#00cc99); /*color starts at center and change to different colors*/
+    border-radius: 50px; /*create rounded borders*/
     position: relative;
-    right: -1700px;
+    right: -1700px;/*starting point*/
     width: 1530px;
     height: 400px;
-    animation: slide-left 1s forwards 2s;/**/
+    animation: slide-left 1s ease 2s; /*animation name= slide-left, duration= 1s, timing function at default, delay= 2s */
+    animation-fill-mode: forwards;/*make animation stay after shifting left*/
     
 }
 
-@keyframes slide-left {
+@keyframes slide-left {/*ending point*/
     100% { right: 0px; }
 }
 
@@ -109,18 +109,18 @@ span {
     padding: 20px;
     padding-left: 25%;
     margin: 50px;
-    height: 400px;
     background-color: #99ff99;
-    background:linear-gradient(-90deg, #99ff99,#00cccc,#66ff99);
-    border-radius: 50px;
+    background:linear-gradient(-90deg, #99ff99,#00cccc,#66ff99);/*linear gradient that starts from -90deg angle and change colors*/
+    border-radius: 50px; /*create rounded borders*/
     position: relative;
-    left: -1700px;
+    left: -1700px; /*starting point*/
     width: 1110px;
     height: 500px;
-    animation: slide-right 1s forwards 3s; /**/
+    animation: slide-right2 1s ease 3s; /*animation name= slide-right2, duration= 1s, timing function at default, delay= 3s */
+    animation-fill-mode: forwards;/*make animation stay after shifting right*/
 }
 
-@keyframes slide-right {
+@keyframes slide-right2 { /*ending point*/
     100% { left: 0px; }
 }
 
@@ -137,23 +137,23 @@ span {
     border: 5px solid #00ff99;
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 19px;
-    box-shadow: 5px 5px 5px grey; /**/
-    
+    box-shadow: 5px 5px 5px grey; /*horizontal and vertical shadow=5px, blur radius=5x, color=grey */
+
 }
 
 .button {
     margin-left: 5px;
-    border-radius: 20px;
+    border-radius: 20px;  /*create rounded borders*/
 }
 
 #cover {
     float: right;
     margin-left: 25px;
     padding-right: 10px;
-    transition: transform 2s; /**/
+    transition: transform 2s; /*property=transform, duration=2s*/
 }
 
-#cover:hover { /**/
+#cover:hover { /*3D rotation over y-axis 360deg when mouse hovers image*/
     transform: rotateY(360deg);
 }
 
@@ -161,10 +161,10 @@ span {
     padding-right: 50px;
     padding-left: 10px;
     float: left;
-    transition: transform 2s;
+    transition: transform 2s; /*property=transform, duration=2s*/
 }
 
-#cassia:hover { /**/
+#cassia:hover { /*3D rotation over x-axis 360deg when mouse hovers image*/
     transform: rotateX(360deg);
 }
 
